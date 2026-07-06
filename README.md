@@ -97,10 +97,7 @@ pip install -r requirements.txt
 
 ### 3. Kaggle API key (to download the dataset)
 
-The notebook downloads the PlantVillage dataset directly from Kaggle (a much
-more reliable source than the version available via `tensorflow_datasets`,
-which relies on a Mendeley server that can block cloud IP addresses, e.g.
-Google Colab — resulting in a `403 Forbidden` error).
+The notebook downloads the PlantVillage dataset directly from Kaggle.
 
 1. Create a free account at [kaggle.com](https://www.kaggle.com).
 2. **Account → API → Create New API Token** — this downloads a `kaggle.json`
