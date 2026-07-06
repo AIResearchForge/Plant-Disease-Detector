@@ -136,19 +136,18 @@ predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 ## 📁 Repository Structure
 
 ```
-Plant-Disease-Detector/
+├── docs/
+├── images/
+├── models/
 ├── notebooks/
 │   └── Plant_Disease_Detector_TensorFlow.ipynb
-│   └── Plant_Disease_Detector_TensorFlow_example.ipynb
-├── models/
-├── images/           
-├── predictions/       
-├── results/          
-├── docs/             
-├── requirements.txt
+│   └── Plant_Disease_Detector_TensorFlow_example.ipynb               
+├── predictions/        
+├── results/           
+├── .gitignore         
 ├── LICENSE
-├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## 🔭 Development Roadmap
