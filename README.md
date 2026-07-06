@@ -21,11 +21,7 @@ specific disease (or a healthy state) — from a single leaf photograph, using
 the **[PlantVillage](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)**
 dataset.
 
-The goal of this project is to demonstrate practical, thorough proficiency
-with TensorFlow/Keras in an image classification task: from data
-exploration, through augmentation, two-phase training (transfer learning +
-fine-tuning), all the way to full evaluation with multiple metrics and a
-ready-to-use prediction pipeline for new data.
+The goal of this project is to demonstrate how TensorFlow/Keras can be used for image classification, covering the entire workflow—from data exploration and augmentation, through two-stage training (transfer learning and fine-tuning), to comprehensive model evaluation using multiple performance metrics and a production-ready prediction pipeline for new data.
 
 ## 🧠 Model Architecture
 
