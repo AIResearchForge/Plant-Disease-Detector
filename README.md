@@ -175,6 +175,4 @@ dataset is subject to the license set by its authors — see
 
 ## 👤 Author
 
-AIResearchForge — a portfolio project prepared to demonstrate practical proficiency
-with TensorFlow/Keras (Transfer Learning, Fine Tuning) in image
-classification tasks.
+AIResearchForge — a TensorFlow/Keras-based project for image classification using Transfer Learning and Fine-Tuning.
