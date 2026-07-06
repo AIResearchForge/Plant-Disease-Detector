@@ -64,12 +64,11 @@ Dense (38, softmax)
 > after training and depend on the specific training run and hardware. Once
 > you've run the project, it's worth pasting the final numbers here, e.g.:
 
-| Metric | Result |
-|---|---|
-| Test Accuracy | _fill in after training_ |
-| Precision (macro) | _fill in after training_ |
-| Recall (macro) | _fill in after training_ |
-| F1-score (macro) | _fill in after training_ |
+| Metric |
+| Test Accuracy |
+| Precision (macro) |
+| Recall (macro) |
+| F1-score (macro) |
 
 Full results (confusion matrix, per-class classification report) are
 automatically saved to the `results/` folder:
@@ -79,28 +78,13 @@ automatically saved to the `results/` folder:
 
 Saved predictions on new images (Section 28) go to the `predictions/` folder.
 
-## 🖼️ Screenshots
-
-> After running the notebook, it's worth saving key visualizations here (as
-> files in `images/`), e.g.:
-> - example images from the dataset (Section 8),
-> - the data augmentation effect (Section 9),
-> - accuracy/loss curves (Section 14),
-> - the confusion matrix (Section 21),
-> - examples of mispredictions (Section 25).
->
-> ```markdown
-> ![Training curves](images/training_curves.png)
-> ![Confusion matrix](images/confusion_matrix.png)
-> ```
-
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/plant-disease-detector.git
-cd plant-disease-detector
+git clone https://github.com/AIResearchForge/Plant-Disease-Detector.git
+cd Plant-Disease-Detector
 ```
 
 ### 2. Virtual environment and dependencies
