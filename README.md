@@ -136,7 +136,7 @@ predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 ## 📁 Repository Structure
 
 ```
-plant-disease-detector/
+Plant-Disease-Detector/
 ├── notebooks/
 │   └── Plant_Disease_Detector_TensorFlow.ipynb
 │   └── Plant_Disease_Detector_TensorFlow_example.ipynb
