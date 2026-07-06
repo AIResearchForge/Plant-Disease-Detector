@@ -8,7 +8,7 @@
 
 A plant disease classifier based on leaf photographs, built on **Transfer
 Learning** and **Fine Tuning** on the **EfficientNetB0** architecture
-(TensorFlow / Keras). A portfolio project presenting a full, production-style
+(TensorFlow / Keras). A project presenting a full, production-style
 pipeline: from data, through training, to evaluation and a ready-to-use
 prediction function for new images.
 
