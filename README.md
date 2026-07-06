@@ -65,6 +65,7 @@ Dense (38, softmax)
 > you've run the project, it's worth pasting the final numbers here, e.g.:
 
 | Metric |
+|---|
 | Test Accuracy |
 | Precision (macro) |
 | Recall (macro) |
