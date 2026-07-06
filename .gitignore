@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- TensorFlow / data / models ---
+*.h5
+*.keras
+*.tflite
+*.pb
+logs/
+checkpoints/
+saved_model/
+
+# Keep the models/ folder structure in the repo, but not the large weight files:
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# --- Input data (downloaded by the notebook, not committed) ---
+data/
+
+# --- Locally generated results ---
+predictions/*.png
+predictions/*.jpg
+!predictions/.gitkeep
+
+# --- System / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Environment variables / secrets ---
+.env
+*.env
+kaggle.json
