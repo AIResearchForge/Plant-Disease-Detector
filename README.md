@@ -61,8 +61,7 @@ Dense (38, softmax)
 ## 📊 Results
 
 > Metric values are generated automatically in the notebook (Sections 15–22)
-> after training and depend on the specific training run and hardware. Once
-> you've run the project, it's worth pasting the final numbers here, e.g.:
+> after training and depend on the specific training run and hardware.
 
 | Metric |
 |---|
