@@ -136,6 +136,7 @@ predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 ## 📁 Repository Structure
 
 ```
+Plant-Disease-Detector/
 ├── docs/
 ├── images/
 ├── models/
