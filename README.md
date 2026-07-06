@@ -119,20 +119,20 @@ free GPU access): just upload the `.ipynb` file and set
 > ℹ️ On first run, the dataset (a few GB) will be downloaded from Kaggle and
 > cached locally — subsequent runs will be instant.
 
-### 5. Predict on your own image
-
-After training (or loading a saved model):
+### 5. Predict on your own image(Section 28)
 
 ```python
-from tensorflow import keras
-import json
+A full "file-to-result" inference pipeline — with automatic saving of the prediction result (image + label + confidence) to the predictions/ folder, simulating how results might be archived in a real application.
 
-model = keras.models.load_model("models/plant_disease_efficientnetb0_final.keras")
-with open("models/class_names.json") as f:
-    class_names = json.load(f)
+How to actually use this function on your own image — three ways:
 
-# predict_new_image() function defined in the notebook (Section 28)
-predict_new_image("images/my_leaf.jpg", model, class_names)
+1. Google Colab (easiest): run the cell below — a "Choose Files" button will appear, letting you pick an image from your computer. It will be automatically uploaded to the notebook and classified.
+
+2. Local Jupyter / any environment: upload your image to the images/ folder in the repository, then in a new cell call:
+predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
+(replacing the filename with your own).
+
+3. Image already present on the server/Colab disk — simply provide the full path to it as the first argument of the function.
 ```
 
 ## 📁 Repository Structure
@@ -140,16 +140,13 @@ predict_new_image("images/my_leaf.jpg", model, class_names)
 ```
 plant-disease-detector/
 ├── notebooks/
-│   └── Plant_Disease_Detector_TensorFlow.ipynb   # main notebook (31 sections)
+│   └── Plant_Disease_Detector_TensorFlow.ipynb
+│   └── Plant_Disease_Detector_TensorFlow_example.ipynb
 ├── models/
-│   ├── phase1_feature_extraction.keras           # checkpoint after phase 1 (generated)
-│   ├── phase2_fine_tuning.keras                  # checkpoint after phase 2 (generated)
-│   ├── plant_disease_efficientnetb0_final.keras  # final model (generated)
-│   └── class_names.json                          # list of 38 class names (generated)
-├── images/            # example images / README screenshots
-├── predictions/        # saved prediction results on new images (generated)
-├── results/           # metrics, confusion matrix, classification report (generated)
-├── docs/              # additional documentation
+├── images/           
+├── predictions/       
+├── results/          
+├── docs/             
 ├── requirements.txt
 ├── LICENSE
 ├── .gitignore
