@@ -121,7 +121,6 @@ free GPU access): just upload the `.ipynb` file and set
 
 ### 5. Predict on your own image(Section 28)
 
-```python
 A full "file-to-result" inference pipeline — with automatic saving of the prediction result (image + label + confidence) to the predictions/ folder, simulating how results might be archived in a real application.
 
 How to actually use this function on your own image — three ways:
@@ -133,7 +132,6 @@ predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 (replacing the filename with your own).
 
 3. Image already present on the server/Colab disk — simply provide the full path to it as the first argument of the function.
-```
 
 ## 📁 Repository Structure
 
