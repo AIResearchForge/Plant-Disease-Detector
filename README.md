@@ -203,6 +203,6 @@ dataset is subject to the license set by its authors — see
 
 ## 👤 Author
 
-Krzysztof — a portfolio project prepared to demonstrate practical proficiency
+AIResearchForge — a portfolio project prepared to demonstrate practical proficiency
 with TensorFlow/Keras (Transfer Learning, Fine Tuning) in image
 classification tasks.
